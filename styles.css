@@ -59,7 +59,7 @@ a{
     font-weight: 900;
     color: #F9FAF8;
 }
-.left-head-subtext, .link, .action-body-main-sub{
+.left-head-subtext, .link, .action-body-main-sub, .footer{
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -163,4 +163,10 @@ a{
 .action-button{
     border: 1px solid white;
     margin-left: auto;
+}
+
+.footer{
+    text-align: center;
+    padding: 15px 0px;
+    background-color: #1F2937;
 }
