@@ -7,7 +7,7 @@ body{
 
 }
 
-.head, .information, .quote{
+.head, .information, .action{
     padding: 0px 200px 100px;
 }
 
@@ -59,7 +59,7 @@ a{
     font-weight: 900;
     color: #F9FAF8;
 }
-.left-head-subtext, .link{
+.left-head-subtext, .link, .action-body-main-sub{
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -143,4 +143,24 @@ a{
     margin-left: auto;
     font-size: 20px;
     font-weight: 900;
+}
+
+.action{
+    padding-top: 100px;
+}
+.action-body{
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    padding: 50px 80px;
+    border-radius: 20px;
+}
+.action-body-main{
+    color: white;
+    font-size: 30px;
+}
+
+.action-button{
+    border: 1px solid white;
+    margin-left: auto;
 }
