@@ -7,7 +7,7 @@ body{
 
 }
 
-.head, .information{
+.head, .information, .quote{
     padding: 0px 200px 100px;
 }
 
@@ -122,4 +122,25 @@ a{
     border-radius: 20px;
     width: 200px;
     border: 3px solid blue;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 100px 320px;
+}
+
+.quote-body{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+.quote-right{
+    margin-left: auto;
+    font-size: 20px;
+    font-weight: 900;
 }
